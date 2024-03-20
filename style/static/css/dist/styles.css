@@ -1299,14 +1299,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   transition-duration: 600ms;
 }
 
-.duration-\[300\] {
-  transition-duration: 300;
-}
-
-.duration-\[300ms\] {
-  transition-duration: 300ms;
-}
-
 .ease-\[cubic-bezier\(\.47\2c 0\2c \.745\2c \.715\)\] {
   transition-timing-function: cubic-bezier(.47,0,.745,.715);
 }
@@ -1388,6 +1380,14 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 .hover\:shadow-slate-500:hover {
   --tw-shadow-color: #64748b;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:delay-300:hover {
+  transition-delay: 300ms;
+}
+
+.hover\:duration-300:hover {
+  transition-duration: 300ms;
 }
 
 :is(.dark .dark\:rounded-full) {
