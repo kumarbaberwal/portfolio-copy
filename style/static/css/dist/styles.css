@@ -1271,84 +1271,20 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   transition-delay: 0ms !important;
 }
 
-.delay-\[100ms\] {
-  transition-delay: 100ms;
-}
-
-.delay-\[120ms\] {
-  transition-delay: 120ms;
-}
-
-.delay-\[140ms\] {
-  transition-delay: 140ms;
-}
-
-.delay-\[160ms\] {
-  transition-delay: 160ms;
-}
-
-.delay-\[180ms\] {
-  transition-delay: 180ms;
-}
-
-.delay-\[00ms\] {
-  transition-delay: 00ms;
-}
-
-.delay-\[10ms\] {
-  transition-delay: 10ms;
-}
-
 .delay-\[200ms\] {
   transition-delay: 200ms;
 }
 
-.delay-\[240ms\] {
-  transition-delay: 240ms;
-}
-
-.delay-\[260ms\] {
-  transition-delay: 260ms;
-}
-
-.delay-\[20ms\] {
-  transition-delay: 20ms;
-}
-
-.delay-\[280ms\] {
-  transition-delay: 280ms;
-}
-
-.delay-\[320ms\] {
-  transition-delay: 320ms;
-}
-
-.delay-\[30ms\] {
-  transition-delay: 30ms;
-}
-
-.delay-\[3600ms\] {
-  transition-delay: 3600ms;
-}
-
-.delay-\[360ms\] {
-  transition-delay: 360ms;
+.delay-\[300\] {
+  transition-delay: 300;
 }
 
 .delay-\[300ms\] {
   transition-delay: 300ms;
 }
 
-.delay-700 {
-  transition-delay: 700ms;
-}
-
-.delay-300 {
-  transition-delay: 300ms;
-}
-
-.delay-\[300\] {
-  transition-delay: 300;
+.delay-\[360ms\] {
+  transition-delay: 360ms;
 }
 
 .\!duration-\[0ms\] {
@@ -1363,40 +1299,24 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   transition-duration: 600ms;
 }
 
+.duration-\[300\] {
+  transition-duration: 300;
+}
+
 .duration-\[300ms\] {
   transition-duration: 300ms;
-}
-
-.duration-\[00ms\] {
-  transition-duration: 00ms;
-}
-
-.duration-\[600\] {
-  transition-duration: 600;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ease-\[cubic-bezier\(\.47\2c 0\2c \.745\2c \.715\)\] {
   transition-timing-function: cubic-bezier(.47,0,.745,.715);
 }
 
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .\[animation-iteration-count\:infinite\] {
   animation-iteration-count: infinite;
-}
-
-.\[transform\:translate3d\(-200px\2c 0\2c 0\)_scale\(0\.6\)\] {
-  transform: translate3d(-200px,0,0) scale(0.6);
-}
-
-.\[transform\:translate3d\(0\2c 200px\2c 0\)_scale\(0\.6\)\] {
-  transform: translate3d(0,200px,0) scale(0.6);
-}
-
-.\[transform\:translate3d\(-200px\2c 200px\2c 0\)\] {
-  transform: translate3d(-200px,200px,0);
 }
 
 .\[backface-visibility\:hidden\] {
@@ -1405,6 +1325,18 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .\[transform\:perspective\(2500px\)_rotateX\(-100deg\)\] {
   transform: perspective(2500px) rotateX(-100deg);
+}
+
+.\[transform\:translate3d\(-200px\2c 0\2c 0\)_scale\(0\.6\)\] {
+  transform: translate3d(-200px,0,0) scale(0.6);
+}
+
+.\[transform\:translate3d\(-200px\2c 200px\2c 0\)\] {
+  transform: translate3d(-200px,200px,0);
+}
+
+.\[transform\:translate3d\(0\2c 200px\2c 0\)_scale\(0\.6\)\] {
+  transform: translate3d(0,200px,0) scale(0.6);
 }
 
 .hover\:-translate-y-7:hover {
@@ -1456,10 +1388,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 .hover\:shadow-slate-500:hover {
   --tw-shadow-color: #64748b;
   --tw-shadow: var(--tw-shadow-colored);
-}
-
-.hover\:delay-300:hover {
-  transition-delay: 300ms;
 }
 
 :is(.dark .dark\:rounded-full) {
@@ -1745,22 +1673,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     transition-delay: 500ms;
   }
 
-  .md\:delay-\[500\] {
-    transition-delay: 500;
-  }
-
-  .md\:delay-700 {
-    transition-delay: 700ms;
-  }
-
-  .md\:delay-100 {
-    transition-delay: 100ms;
-  }
-
-  .md\:delay-1000 {
-    transition-delay: 1000ms;
-  }
-
   .md\:hover\:delay-300:hover {
     transition-delay: 300ms;
   }
@@ -1856,16 +1768,16 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     line-height: 1;
   }
 
-  .lg\:delay-700 {
-    transition-delay: 700ms;
+  .lg\:delay-1000 {
+    transition-delay: 1000ms;
   }
 
   .lg\:delay-500 {
     transition-delay: 500ms;
   }
 
-  .lg\:delay-1000 {
-    transition-delay: 1000ms;
+  .lg\:delay-700 {
+    transition-delay: 700ms;
   }
 }
 
