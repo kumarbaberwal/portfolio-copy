@@ -725,6 +725,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   height: 3rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-2 {
   height: 0.5rem;
 }
@@ -768,6 +772,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .w-12 {
   width: 3rem;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-6 {
@@ -1074,6 +1082,11 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-40 {
